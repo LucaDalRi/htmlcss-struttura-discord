@@ -4,7 +4,57 @@
     box-sizing: border-box;
 }
 
-.debug{
+.div-head-container{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1000px;
+    background-color: #add8e6;
+}
+ .logo-login{
+    width: 200px;
+    
+ }
+
+.link-header{
+    width: 600px;
+    text-align: center;
+
+}
+
+.logo-login.right{
+    text-align: right;
+}
+
+.logo-login, .link-header, .logo-login.right{
+    background-color: #daa520;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* debug */
+.debug header{
     border: 2px dashed yellow;
     
+}
+.debug div{
+    border: 2px dashed yellow;
 }
