@@ -9,16 +9,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 1000px;
+    
     background-color: #add8e6;
 }
  .logo-login{
-    width: 200px;
+    width: 15%;
     
  }
 
 .link-header{
-    width: 600px;
+    width: 40%;
     text-align: center;
 
 }
@@ -31,7 +31,19 @@
     background-color: #daa520;
 }
 
-
+.div-main-container{
+    display: flex;
+    height: 450px;
+    background-color: #00008b;
+    justify-content: center;
+    align-items: center;
+}
+.div-main{
+    background-color: #ee82ee;
+    height: 350px;
+    width: 650px;
+    
+}
 
 
 
