@@ -9,18 +9,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
     background-color: #add8e6;
 }
- .logo-login{
+
+.logo-login{
     width: 200px;
-    
  }
 
 .link-header{
     width: 500px;
     text-align: center;
-
 }
 
 .logo-login.right{
@@ -39,11 +37,11 @@
     justify-content: center;
     align-items: center;
 }
+
 .div-section1-1{
     background-color: #ee82ee;
     height: 350px;
-    width: 650px;
-    
+    width: 650px;  
 }
 
 .div-section2{
@@ -58,24 +56,19 @@
     background-color: #1e90ff;
     height: 400px;
     width: 550px;
-
 }
 
 .div-section2-2{
     background-color: #ffc0cb;
     height: 400px;
     width: 350px;
-
-
 }
 
 .reverse{
-
     background-color: #d3d3d3;
 }
 
 .div-section2-1, .reverse{
-    
     flex-direction: row-reverse;
 }
 
@@ -85,14 +78,12 @@
     justify-content: center;
     align-items: center;
     background-color: #d3d3d3;
-
 }
 
 #box-alto{
     height: 800px;
     width: 900px;
     background-color: #228b22;
-
 }
 
 #ultima-section{
@@ -101,7 +92,6 @@
     height: 500px;
     justify-content: center;
     align-items: center;
-
 }
 
 .div-ultima-section{
@@ -124,12 +114,12 @@
 }
 
 .div-bottom{
+    margin-top: 1px;
     display: flex;
     background-color: #23272a;
     height: 80px;
     justify-content: center;
     align-items: flex-end;
-
 }
 
 #div-logo-bottone{
@@ -139,16 +129,7 @@
     height: 60px;
     justify-content: space-between;
     align-items: center;
-
 }
-
-
-
-
-
-
-
-
 
 
 /* debug 
