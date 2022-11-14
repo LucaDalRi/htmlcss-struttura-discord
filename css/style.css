@@ -13,12 +13,12 @@
     background-color: #add8e6;
 }
  .logo-login{
-    width: 15%;
+    width: 200px;
     
  }
 
 .link-header{
-    width: 40%;
+    width: 500px;
     text-align: center;
 
 }
@@ -31,21 +31,46 @@
     background-color: #daa520;
 }
 
-.div-main-container{
+.div-section1{
     display: flex;
     height: 450px;
     background-color: #00008b;
     justify-content: center;
     align-items: center;
 }
-.div-main{
+.div-section1-1{
     background-color: #ee82ee;
     height: 350px;
     width: 650px;
     
 }
 
+.div-section2{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
 
+.div-section2-1{
+    background-color: #1e90ff;
+    height: 400px;
+    width: 550px;
+
+}
+
+.div-section2-2{
+    background-color: #ffc0cb;
+    height: 400px;
+    width: 350px;
+
+
+}
+
+.div-section2-1, .reverse{
+
+    flex-direction: row-reverse;
+}
 
 
 
