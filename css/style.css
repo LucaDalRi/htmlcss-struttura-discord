@@ -31,9 +31,10 @@
     background-color: #daa520;
 }
 
+
 .div-section1{
     display: flex;
-    height: 450px;
+    padding: 30px 0;
     background-color: #00008b;
     justify-content: center;
     align-items: center;
@@ -48,6 +49,7 @@
 .div-section2{
     display: flex;
     height: 500px;
+    padding: 30px 0;
     justify-content: center;
     align-items: center;
 }
@@ -67,9 +69,77 @@
 
 }
 
-.div-section2-1, .reverse{
+.reverse{
 
+    background-color: #d3d3d3;
+}
+
+.div-section2-1, .reverse{
+    
     flex-direction: row-reverse;
+}
+
+.div-alto{
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d3d3;
+
+}
+
+#box-alto{
+    height: 800px;
+    width: 900px;
+    background-color: #228b22;
+
+}
+
+#ultima-section{
+    display: flex;
+    background-color: #23272a;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div-ultima-section{
+    background-color: #ee82ee;
+    width: 300px;
+    height: 450px;
+}
+
+.div-ultima-section2{
+    display: flex;
+    background-color: #1e90ff;
+    height: 450px;
+    width: 600px;
+}
+
+.quattro-div{
+    background-color: #1e90ff;
+    height: 450px;
+    width: 150px;
+}
+
+.div-bottom{
+    display: flex;
+    background-color: #23272a;
+    height: 80px;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+#div-logo-bottone{
+    display: flex;
+    background-color: #7fffd4;
+    width: 900px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 
@@ -81,13 +151,7 @@
 
 
 
-
-
-
-
-
-
-/* debug */
+/* debug 
 .debug header{
     border: 2px dashed yellow;
     
@@ -95,3 +159,4 @@
 .debug div{
     border: 2px dashed yellow;
 }
+*/
